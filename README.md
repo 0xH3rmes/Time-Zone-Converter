@@ -15,7 +15,7 @@ A simple command-line tool for converting time between different time zones.
 
 1. Clone this repository:
 ```bash
-git clone https://github.com/yourusername/timezone-converter.git
+git clone https://github.com/0xH3rmes/timezone-converter.git
 cd timezone-converter
 ```
 
@@ -23,3 +23,10 @@ cd timezone-converter
 ```bash
 chmod +x main.py
 ```
+
+## ⚙️ Commands
+
+- `convert`: Convert time between timezones
+- `current`: Show current time in different zones
+- `list`: List all available timezones
+- `common`: List common timezone abbreviations
