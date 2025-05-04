@@ -30,3 +30,32 @@ chmod +x main.py
 - `current`: Show current time in different zones
 - `list`: List all available timezones
 - `common`: List common timezone abbreviations
+
+## 📋 Command Options
+
+### Convert time:
+```bash
+python main.py convert <time> <from_timezone> <to_timezone>
+```
+
+Time formats:
+
+- `HH:MM:SS`: Time only (uses current date)
+- `YYYY-MM-DD HH:MM:SS`: Full date and time
+- `now`: Current time
+
+### Show current time:
+```bash
+python main.py current
+```
+
+### List timezones:
+```bash
+python main.py list
+```
+
+### List common abbreviations:
+```bash
+python main.py common
+```
+
